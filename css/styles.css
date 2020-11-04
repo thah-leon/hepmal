@@ -1,0 +1,100 @@
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Zoom on Hover */
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.09); /* IE 9 */
+  -webkit-transform: scale(1.09); /* Safari 3-8 */
+  transform: scale(1.09);
+}
+/* Zoom on Hover */
+
+/* Parallax */
+.parallax{
+  height: 600px;
+  position: relative;
+}
+
+.parallax-caption{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+}
+.parallax-caption img{
+  width: 10%;
+}
+
+/* @media screen and (max-height: 320px) {} */
+
+.caption-text{
+  display: inline-block;
+  background-color: #430C0D;
+  color: white;
+  border-left: 2px solid #8D3B58;
+  border-radius: 2px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .parallax{
+    height: 400px;
+  }
+
+  .parallax-caption{
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+  }
+
+  .parallax-caption img{
+    width: 20%;
+  }
+
+  .caption-text{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:992px) and (min-width:601px){}
+/* Parallax */
+
+.container{
+  margin: 5% 4%;
+}
+
+.section-title{
+  color: #8D3B58;
+}
+
+
+/* Vertical Menu */
+.vertical-menu {
+  width: 100%;
+ padding: 15px;
+}
+
+.vertical-menu a {
+  background-color: white;
+  border-left: 1px solid #8D3B58;
+  color: black;
+  display: block;
+  padding: 10px 15px;
+  margin: 10px 0;
+  text-decoration: none;
+  transition:0.1s;
+}
+
+.vertical-menu a:hover {
+ color:#8D3B58;
+ background-color: #f1f1f1;
+}
+/* Vertical Menu */
