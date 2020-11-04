@@ -98,3 +98,48 @@ html {
  background-color: #f1f1f1;
 }
 /* Vertical Menu */
+
+/* Custom Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222222;
+}
+
+/* Custom Scroll Bar */
+
+
+/* Scroll To Top */
+#myBtn {
+  background-color: #222222;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #222222;
+}
+/* Scroll To Top */
